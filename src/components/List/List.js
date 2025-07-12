@@ -10,7 +10,7 @@ import {
 } from '@mui/material';
 
 
-import PlaceDetails from '../PlaceDetails/PlaceDetails.jsx';
+import PlaceDetails from '../PlaceDetails/PlaceDetails.js';
 import useStyles from './styles.js';
 
 const List = ({ places, type, setType, rating, setRating, childClicked, isLoading }) => {

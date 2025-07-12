@@ -1,8 +1,7 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
-import { Paper, Typography, useMediaQuery } from '@mui/material';
+import { Paper, Typography, useMediaQuery, Rating } from '@mui/material';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
-import {Rating} from '@mui/material';
 import useStyles from './styles'
 
 const Map = ({ coords, places, setCoords, setBounds, setChildClicked, weatherData }) => {
