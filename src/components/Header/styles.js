@@ -1,6 +1,4 @@
-import { makeStyles } from '@mui/styles';
-import { alpha } from '@mui/material/styles'; // ✅ RIGHT
-
+import { alpha, makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   title: {
@@ -32,3 +30,4 @@ export default makeStyles((theme) => ({
     display: 'flex', justifyContent: 'space-between',
   },
 }));
+

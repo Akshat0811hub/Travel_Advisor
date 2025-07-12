@@ -1,14 +1,6 @@
-// index.js
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const theme = createTheme();
+import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <ThemeProvider theme={theme}>
-    <App />
-  </ThemeProvider>
-);
+ReactDOM.render(<App />, document.getElementById('root'));
